@@ -1,0 +1,32 @@
+body{
+    padding:0;
+    box-sizing: border-box;
+    color: #f5f9fa;
+    background-color: hsl(198,68%,53%);
+}
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contenedor{
+    margin: 40px;
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+    color: #f5f9fa;
+    background: linear-gradient(#323333, #2a2b2b);
+    display: block;
+    padding: 10px 40px 30px 40px ;
+}
+
+.formulario{
+    display: block;
+}
+
+input{
+    border-radius: 5px;
+}
+button{
+    border-radius: 5px;
+}
