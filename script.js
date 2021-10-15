@@ -86,14 +86,12 @@ function ordenarOracion(){
         orden += " "
     }
 
-
     div.appendChild(document.createElement('br'));
 
     var titulo1 = document.createElement('label');
     titulo1.textContent = "Oración en orden de la a la z: ";
     var elemento1 = document.createElement('label');
     elemento1.textContent = '    '+orden;
-
 
     div.appendChild(titulo1);
     div.appendChild(elemento1);
@@ -121,6 +119,9 @@ function ordenarOracionInverso(){
 
     div.appendChild(titulo1);
     div.appendChild(elemento1);
+
+    div.appendChild(document.createElement('br'));    
+    div.appendChild(document.createElement('br'));
 }
 
 
